@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Calculator</title>
+  <!-- By Mustafa Aru -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="./index.css">
+</head>
+
+<body>
+  <script text="text/javascript" src="./index.js"></script>
+
+  <table>
+    <form name="form">
+      <input type="text" name="output">
+    </form>
+    
+    <tr>
+      <th><button onclick="clearAll()" type="button" class="button">C</button></th>
+      <th><button onclick="back('<')" type="button" class="button"><</button></th>
+      <th><button onclick="writeForm('/')" type="button" class="button">/</button></th>
+      <th><button onclick="writeForm('*')" type="button" class="button">*</button></th>
+    </tr>
+    <tr>
+      <td><button onclick="writeForm(7)" type="button" class="button">7</button></td>
+      <td><button onclick="writeForm(8)" type="button" class="button">8</button></td>
+      <td><button onclick="writeForm(9)" type="button" class="button">9</button></td>
+      <td><button onclick="writeForm('-')" type="button" class="button">-</button></td>
+    </tr>
+    <tr>
+      <td><button onclick="writeForm(4)" type="button" class="button">4</button></td>
+      <td><button onclick="writeForm(5)" type="button" class="button">5</button></td>
+      <td><button onclick="writeForm(6)" type="button" class="button">6</button></td>
+      <td><button onclick="writeForm('+')" type="button" class="button">+</button></td>
+    </tr>
+    <tr>
+      <td><button onclick="writeForm(1)" type="button" class="button">1</button></td>
+      <td><button onclick="writeForm(2)" type="button" class="button">2</button></td>
+      <td><button onclick="writeForm(3)" type="button" class="button">3</button></td>
+      <td rowspan="2"><button onclick="equal('=')" type="button" class="button equalButton">=</button></td>
+    </tr>
+    <tr>
+      <td colspan="2"><button onclick="writeForm(0)" type="button" class="button zeroButton">0</button></td>
+      <td><button onclick="writeForm('.')" type="button" class="button">.</button></td>
+    </tr>
+  </table>
+
+</body>
+
+</html>

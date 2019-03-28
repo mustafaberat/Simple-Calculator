@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #eee;
+}
+
+.zeroButton{
+  width: 100%;
+}
+
+.equalButton{
+  height: 110px;
+}
+
+table{
+  height: 300px;
+  width: 220px;
+}
+
+.button{
+  cursor: pointer;
+  padding: 10px 20px;
+  margin: 2px;
+  color: rgb(248, 165, 179);
+  background-color: #1e272e;
+}
+
+.button:hover{
+  background-color: #3c5163;
+  transition: .4s;
+}
+
+input {
+  height: 40px;
+  width: 230px;
+  margin: 2px;
+  padding-left: 4px; 
+  margin:10px 3px 20px;
+  background-color: #1e272e;
+  color: rgb(248, 165, 179);
+}
